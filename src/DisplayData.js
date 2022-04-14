@@ -94,7 +94,7 @@ function DisplayData() {
                 refetch()
             }}>Add User</button>
             <h1> Display Users</h1>
-            <div>{data && data.users.map((user) => (
+            <div>{data && data.users.users.map((user) => (
                 <div style={{ marginBottom: 10, backgroundColor: "beige" }}>
                     <h3>name: {user.name}</h3>
                     <h3>username: {user.username}</h3>
